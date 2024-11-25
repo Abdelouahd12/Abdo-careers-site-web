@@ -23,9 +23,8 @@
 </head>
 
 <body>
-    <div class="logo_jov">
-        <img src="https://jovian.com/jovian_logo.svg" alt="navbar" id="jovian_logo">
-    </div>
+    <img src="favicon.png" id="logo" alt="logo">
+    <img src="https://jovian.com/jovian_logo.svg" alt="navbar" id="jovian_logo">
     <img id="banner" src="banner.jpg">
     <h1>About Jovian</h1>
     <div id="about">
@@ -39,16 +38,45 @@
             </p>
 
             <p>We also offer 2 industry-focused bootcamps:
-            <ol>
-                <li><a href="https://www.jovian.com/full-stack-developer-bootcamp"> Full Stack Developer Bootcamp</a>
-                </li>
-                <li><a href="https://www.jovian.com/data-science-bootcamp"> Data Science Bootcamp</a></li>
+            <ol id="link">
+                <li><a href="https://www.jovian.com/full-stack-developer-bootcamp" target="_blank"> Full Stack Developer Bootcamp</a></li>
+                
+                <li><a href="https://www.jovian.com/data-science-bootcamp" target="_blank"> Data Science Bootcamp</a></li>
             </ol>
             </p>
         </div>
-        <div class="team"><img src="team.jpg" alt="imgge-team" id="team"></div>
+        <div class="img-team"><img src="team.jpg" alt="image-team" id="team"></div>
     </div>
-    <h2>jobs opportunities</h2>
+    <h2>Employements opportunities</h2>
+    <div id="jobs">
+<div id="jobs-list">
+    <div class="job">
+        <div class="job-title">Frontend Developer</div>
+        <div class="job-détail">bengaluru,india</div>
+        <div class="job-détail">1200000</div>
+        <div class="job-détail">posted Mar3, 2023</div>
+    </div>
+    <div class="job">
+        <div class="job-title">Full Stack Developer</div>
+        <div class="job-détail">New Delhi,india</div>
+        <div class="job-détail">1500000</div>
+        <div class="job-détail">posted Feb 1, 2023</div>
+    </div>
+    <div class="job">
+        <div class="job-title">Data Scientist</div>
+        <div class="job-détail">San Francisco,USA</div>
+        <div class="job-détail">175,000</div>
+        <div class="job-détail">posted Dec 22, 2022</div>
+    </div>
+    <div class="job">
+        <div class="job-title">ML Engineer</div>
+        <div class="job-détail">Remote</div>
+        <div class="job-détail">80,000</div>
+        <div class="job-détail">posted sep 19,2022</div>
+    </div>
+    
+</div>
+
     <table id="jobs-table">
         <tr class="jobs-header-row">
             <th rowspan="2">job Title</th>
@@ -88,6 +116,7 @@
             <td>Sep 19, 2022</td>
         </tr>
     </table>
+</div>
     <h2>submit your application</h2>
     <form action="" id="application-form">
         <div class="jobs-application">
@@ -125,8 +154,9 @@
             <textarea id="text" name="Cover letter" rows="5" required
                 placeholder="Explain what makes you suitable for the job.."></textarea>
         </div>
-        <div class="jobs-application">
-            <label for="terms">
+        <div class="form-group">
+            
+           <label for="terms">
                 <input type="checkbox" name="terms" id="terms" required>
                 I agree to the terms and conditions
             </label>
@@ -136,7 +166,7 @@
         </div>
     </form>
     <div class="footer">
-    <ul>
+    <ul id="footer-links">
     <li><a href="https://jovian.com/learn" target="_blank"> courses</a></li>
     <li><a href="https://jovian.com/learn" target="_blank">programes</a></li>
     <li><a href="https://jovian.com/learn" target="_blank">youtube</a></li>
